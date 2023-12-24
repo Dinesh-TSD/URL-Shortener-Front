@@ -8,7 +8,7 @@ const Dashboard = () => {
 
   const shortenUrl = async () => {
     try {
-      const response = await axios.post("/api/url/shorten", {
+      const response = await axios.post("https://dinesh-url-shortener.onrender.com/api/url/shorten", {
         originalUrl,
       });
 

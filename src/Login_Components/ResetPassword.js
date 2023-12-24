@@ -38,7 +38,7 @@ const ResetPassword = () => {
       try {
         //post method create new Account
         await axios.post(
-          `/api/v1/password/reset/${params.token}`,
+          `https://dinesh-url-shortener.onrender.com/api/v1/password/reset/${params.token}`,
           values
         );
 

@@ -24,7 +24,7 @@ const ForgotPassword = () => {
       try {
         //post method create new Account
         await axios.post(
-          "/api/v1/password/forgot",
+          "https://dinesh-url-shortener.onrender.com/api/v1/password/forgot",
           values
         );
         navigate('/reset/password/:token')

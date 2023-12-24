@@ -41,7 +41,7 @@ const Register = () => {
       try {
         //post method create new Account
         await axios.post(
-          "/api/v1/register",
+          "https://dinesh-url-shortener.onrender.com/api/v1/register",
           values
         );
         navigate("/");

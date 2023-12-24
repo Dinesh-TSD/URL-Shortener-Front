@@ -1,0 +1,51 @@
+.lg {
+background-image: url("../assets/cm.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  height: 110vh;
+
+}
+body{
+  padding-top: 60px;
+}
+.head {
+  box-shadow: 2px 2px 30px 5px rgb(242, 243, 255);
+  background-color: rgba(239, 254, 254, 0.462);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(57, 71, 230);
+  font-size: 30px;
+  height: 60px;
+  font-weight: 700;
+  position: fixed;
+  width: 100%;
+  z-index: 9999;
+  top: 0px;
+}
+
+.form-bg {
+  box-shadow: 2px 2px 30px 2px rgb(240, 241, 255);
+  background-color: rgba(0, 0, 0, 0.689);
+  width: 500px;
+  border-radius: 5px;
+
+  height: 100vh;
+}
+
+.form-bg h1 {
+  color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+}
+
+.form-bg label {
+  color: white;
+}
+
+.forgot {
+  color: white !important;
+  margin-bottom: 20px !important;
+}

@@ -1,0 +1,11 @@
+.container-fluid{
+    background-color: rgb(215, 222, 255) !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+.align h1{
+    color: white;
+}

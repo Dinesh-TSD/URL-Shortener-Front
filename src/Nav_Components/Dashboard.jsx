@@ -52,10 +52,10 @@ const Dashboard = () => {
                   <div>
                     <p>Shortened URL:</p>
                     <a
-                      href={`http://localhost:7000/${shortUrl}`}
+                      href={`https://dinesh-url-shortener.onrender.com/${shortUrl}`}
                       target="_blank"
                       rel="noopener noreferrer"
-                    >{`http://localhost:7000/${shortUrl}`}</a>
+                    >{`https://dinesh-url-shortener.onrender.com/${shortUrl}`}</a>
                   </div>
                 )}
               </div>

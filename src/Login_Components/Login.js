@@ -37,7 +37,7 @@ const Login = () => {
       try {
         //post method create new Account
         let res = await axios.post(
-          "/api/v1/login",
+          "https://dinesh-url-shortener.onrender.com/api/v1/login",
           values
         );
         localStorage.setItem("token", res.data.token);
